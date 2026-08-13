@@ -1,11 +1,16 @@
 # Cross-Paper Comparison
 
-<!-- Complete this comparison manually. -->
+| Dimension | A Formal | SOLD! | CBBA-PR |
+|---|---|---|---|
+| Main Problem | | | |
+| MRTA Setting | | | |
+| Static / Dynamic | | | |
+| Centralized / Decentralized | | | |
+| Main Method | | | |
+| Key Assumptions | | | |
+| Main Guarantee | | | |
+| Main Limitation | | | |
 
-| Comparison Category | 001 | 002 | 003 |
-| --- | --- | --- | --- |
-|  |  |  |  |
+## How the Three Papers Connect
 
-## Notes
-
-<!-- Add manually. -->
+## Questions I Still Have

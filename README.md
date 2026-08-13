@@ -10,7 +10,5 @@ This repository documents my long-term reading and research process in Multi-Rob
 
 ## Repository Structure
 
-- `research-log.md`: repository-level chronological research log
 - `papers/`: separate reading workspaces for the three papers
 - `cross-paper/comparison.md`: framework for future cross-paper comparison
-- `templates/paper-reading-template.md`: reusable paper-reading template

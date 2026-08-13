@@ -2,12 +2,17 @@
 
 ## Paper Information
 
-<!-- Add manually. -->
+- Authors:
+- Year:
+- Venue:
+- Link:
 
-## Why I Am Reading This Paper
+## Why This Paper Matters
 
-<!-- Add manually. -->
+## My Current Understanding
+
+## Key Concepts & Algorithms
 
 ## Current Status
 
-<!-- Add manually. -->
+## Next Step
