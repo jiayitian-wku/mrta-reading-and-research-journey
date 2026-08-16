@@ -1,6 +1,6 @@
 # MRTA Paper Reading & Research Notes
 
-本仓库用于持续记录我对Multi-Robot Task Allocation（MRTA，多机器人任务分配）的论文研读与研究过程。
+本仓库用于持续记录我对Multi-Robot Task Allocation（MRTA，多机器人任务分配）的论文研读、理解修正与研究过程。
 
 我的目标不是简单整理论文内容，而是逐步建立对MRTA的系统理解，并保留从初步判断、产生疑问、修正理解，到后续算法分析与实验验证的完整研究轨迹。
 
