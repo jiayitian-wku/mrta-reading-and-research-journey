@@ -1,11 +1,11 @@
-# Reading Log
+# Paper 002 – Reading Log
 
-## YYYY-MM-DD — Section / Topic
+## Round 1：整体框架阅读
+日期：2026-08-16
 
-### What I Read
-
-### What I Understood
-
-### Questions / Corrections
-
-### Next Step
+### 本轮目标
+1. 这篇论文想解决什么问题？
+2. 为什么要用拍卖方法分配机器人任务？
+3. 一次任务拍卖大致是怎样完成的？
+4. 它与第一篇 MRTA taxonomy 有什么联系？
+5. 这一轮我将吸取上一轮论文研读的教训，不着重研读某一方向，以全局为重
