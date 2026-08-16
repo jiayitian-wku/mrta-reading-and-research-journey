@@ -1,5 +1,27 @@
 # Cross-Paper Comparison
 
+## Purpose
+
+这个文件用于持续记录不同 MRTA 论文之间的联系、差异以及我对整个研究方向理解的变化。
+
+这里不会简单重复每篇论文的摘要，而是重点比较：
+
+* **Research Problem**：每篇论文究竟在解决什么问题；
+* **MRTA Setting**：问题属于什么类型的任务分配场景；
+* **Main Method**：作者采用了什么核心方法；
+* **Key Assumptions**：方法成立依赖哪些假设；
+* **Strengths & Limitations**：方法解决了什么，又留下了什么问题；
+* **Connection to Other Papers**：它与此前阅读的论文之间有什么关系。
+
+目前我的理解仍处于逐步建立阶段，因此这里的内容不是最终结论，而是一份会随着后续阅读持续修正的研究记录。
+
+特别是对于尚未完成系统研读的论文，我只记录目前已经能够从论文中得到支持的判断，不提前把尚未验证的理解写成确定结论。
+
+---
+
+## Current Comparison
+
+
 | Dimension                       | A Formal                                                                                                                                                                                                                                                                                               | SOLD! | CBBA-PR |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----- | ------- |
 | **Main Problem**                | How to formally define and classify Multi-Robot Task Allocation (MRTA) problems, and connect different MRTA classes to known optimization problems and solution methods.                                                                                                                               |       |         |
