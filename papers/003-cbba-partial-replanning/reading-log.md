@@ -2,7 +2,7 @@
 
 ## 2026-08-16 — Introduction | First-round Reading
 
-### What I Read｜今日阅读
+### What I Read
 
 今天开始对《Partial Replanning for Decentralized Dynamic Task Allocation》
 进行第一轮研读。
@@ -10,7 +10,7 @@
 今天阅读了 Abstract 和 Introduction 的前半部分，目前停在
 Introduction 第三段中途，第三段尚未读完。
 
-### What I Understood｜我的理解
+### What I Understood
 
 - Decentralized 并不是“任务分散”，而是不存在统一的中央控制器，
   机器人之间通过通信和协调完成任务分配。
@@ -26,7 +26,7 @@ Introduction 第三段中途，第三段尚未读完。
 - CBBA-PR 在 CBBA 基础上加入 Partial Replanning，使新任务出现时
   不必完全推翻原有任务分配。
 
-### Questions / Corrections｜问题与理解修正
+### Questions / Corrections
 
 今天修正了一个理解：
 
@@ -43,7 +43,7 @@ Introduction 第三段中途，第三段尚未读完。
 
 这些问题暂时保留，等阅读后续对应章节时再回答。
 
-### Next Step｜下一步
+### Next Step
 
 从 Introduction 第三段当前停下的位置继续。
 
