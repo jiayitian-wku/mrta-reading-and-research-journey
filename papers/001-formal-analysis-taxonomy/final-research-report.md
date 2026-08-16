@@ -9,6 +9,20 @@
 > **最终判定：** 第一篇论文的基础研读阶段可以正式结束。你已经掌握论文主线；在采用本报告列出的修正后，可以把精力转向下一篇论文，而不必继续陷在 Hungarian Algorithm 的手算细节中。
 
 ---
+## English Summary
+
+This paper provides a formal framework and taxonomy for Multi-Robot Task Allocation (MRTA), helping organize different task-allocation problems according to the capabilities of robots, the requirements of tasks, and the temporal characteristics of assignment.
+
+The most important result of my reading was not learning a single allocation algorithm, but developing a structured way to distinguish different MRTA problems. In particular, the ST/MT, SR/MR, and IA/TA dimensions provide a useful conceptual framework for understanding why different task-allocation settings require different solution methods.
+
+During the reading process, I also corrected several early misunderstandings. I initially focused too heavily on individual algorithms such as the Hungarian algorithm and auction-based methods. After revisiting the purpose of the paper, I realized that these algorithms are examples within a broader taxonomy rather than the central contribution of the paper.
+
+This paper therefore serves as the conceptual foundation for my subsequent reading. I will use its taxonomy as a reference when studying more specific decentralized and dynamic task-allocation methods, including CBBA and CBBA with Partial Replanning (CBBA-PR).
+
+---
+
+## 中文完整研究报告
+
 
 ## 1. 研究对象、材料与核验方法
 
