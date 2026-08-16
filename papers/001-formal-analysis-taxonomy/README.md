@@ -1,91 +1,83 @@
-# A formal analysis and taxonomy of task allocation in multi-robot systems
+# A Formal Analysis and Taxonomy of Task Allocation in Multi-Robot Systems
 
-## 论文信息
+## Paper Information
 
-- **作者：** Brian P. Gerkey, Maja J. Matarić
-- **年份：** 2004
-- **期刊：** The International Journal of Robotics Research
-- **研究主题：** Multi-Robot Task Allocation（MRTA，多机器人任务分配）
+* **Title:** A Formal Analysis and Taxonomy of Task Allocation in Multi-Robot Systems
+* **Authors:** Brian P. Gerkey and Maja J. Matarić
+* **Topic:** Multi-Robot Task Allocation (MRTA)
+* **Role in My Reading:** 第一篇系统研读的 MRTA 基础论文
 
-## 为什么研读这篇论文
+## Why This Paper Matters
 
-这篇论文是我系统学习 MRTA 的第一篇论文。
+这篇论文是我系统学习 Multi-Robot Task Allocation（MRTA）的起点。
 
-它并不是只提出一种具体的任务分配算法，而是尝试建立一个统一的理论框架，对不同类型的 MRTA 问题进行分类，并将它们与已有的运筹学和组合优化问题联系起来。
+相比直接提出一种具体任务分配算法，这篇论文更重要的作用是建立一个统一的分析框架：作者通过形式化定义和 taxonomy，对不同类型的多机器人任务分配问题进行分类。
 
-对我来说，这篇论文主要承担“建立 MRTA 整体知识框架”的作用，也是继续研读后续 auction-based task allocation 和 decentralized dynamic task allocation 论文的基础。
+对我而言，这篇论文的主要价值不是记住某一个算法，而是先建立 MRTA 的整体认知框架，为后续阅读 auction-based methods、CBBA 以及动态任务分配相关论文提供基础。
 
-## 我的当前理解
+## My Current Understanding
 
-MRTA 最核心的问题可以概括为：
+我目前对这篇论文最核心的理解是：
 
-> **Which robot(s) should execute which task(s)?**  
-> 哪个（或哪些）机器人应该执行哪个（或哪些）任务？
+MRTA 并不是一个单一的问题，而是一类具有不同机器人能力、任务需求以及任务分配方式的问题。
 
-论文首先通过 **Utility（效用）** 对机器人执行任务的收益和成本进行统一描述。
+论文通过三个维度描述不同类型的 MRTA：
 
-随后作者提出三个分类维度：
+* **ST / MT**：机器人在同一时间能够执行一个任务还是多个任务。
+* **SR / MR**：一个任务需要一个机器人还是多个机器人共同完成。
+* **IA / TA**：任务分配是在瞬时信息下完成，还是需要考虑未来任务和长期规划。
 
-- **ST / MT**：机器人能同时执行一个任务还是多个任务
-- **SR / MR**：一个任务需要一个机器人还是多个机器人合作
-- **IA / TA**：只考虑当前时刻的任务分配，还是需要考虑时间和未来任务
+这三个维度组合后形成不同的 MRTA 问题类别，使后续算法能够放在统一框架下进行比较。
 
-三个二元维度组合后形成 **8 类 MRTA 问题**。
+## Key Concepts & Algorithms
 
-论文进一步把这些 MRTA 问题与 Optimal Assignment Problem、Set Partitioning、Set Covering、Scheduling 等经典优化问题联系起来，并分析不同任务分配方法之间的关系。
+目前重点理解的概念包括：
 
-在 Section 6 中，作者主要从三个维度比较已有的 MRTA 方法：
+* Single-Task (ST) / Multi-Task (MT)
+* Single-Robot (SR) / Multi-Robot (MR)
+* Instantaneous Assignment (IA) / Time-Extended Assignment (TA)
+* MRTA taxonomy
+* Optimal Assignment Problem (OAP)
+* Auction-based task allocation
+* Hungarian algorithm
+* Greedy assignment methods
 
-1. **Computation Requirements**
-2. **Communication Requirements**
-3. **Solution Quality**
+现阶段的重点不是深入掌握每一种算法的实现细节，而是理解：
 
-经过几轮研读后，我逐渐理解到：
+**不同类型的 MRTA 问题为什么需要不同的任务分配方法。**
 
-**Taxonomy 是用于描述、分类和比较 MRTA 问题的框架，而 Hungarian Algorithm、Auction Algorithm、Greedy Algorithm 等属于解决具体任务分配问题的方法。**
+## Current Status
 
-## 核心概念与算法
+第一轮系统研读已经完成。
 
-目前重点接触和学习的内容包括：
+目前已经完成：
 
-- Multi-Robot Task Allocation（MRTA）
-- Utility
-- ST / MT
-- SR / MR
-- IA / TA
-- Optimal Assignment Problem（OAP）
-- Hungarian Algorithm
-- Auction Algorithm
-- Greedy Algorithm
-- Iterated Assignment
-- Online Assignment
-- Time-Extended Assignment
-- Competitive Factor
-- Set Partitioning Problem
-- Set Covering Problem
+* 论文整体结构梳理
+* taxonomy 三个分类维度的理解
+* 八类 MRTA 问题的基本区分
+* 部分典型算法与问题类别之间的对应关系整理
+* 阅读过程中错误理解与修正过程的记录
+* 最终研究报告整理
 
-## 当前进度
+详细阅读过程见：
 
-目前已经完成多轮研读。
+* `reading-log.md`
+* `final-research-report.md`
+* 相关 PDF 阅读记录
 
-第一阶段主要进行了逐页阅读、概念理解和算法学习，并形成了第一份手写研读笔记。
+## Open Questions
 
-在后续复盘中，我发现自己曾经在 Hungarian Algorithm 等局部算法细节上投入过多时间，而对论文整体结构和核心研究逻辑关注不足。
+后续仍需要继续思考：
 
-因此，在后续研读中，我开始重新从整篇论文的角度梳理：
+* taxonomy 中的不同问题类别如何对应现代 MRTA 算法？
+* 这套较早期的分类体系在动态任务分配问题中是否仍然充分？
+* CBBA、CBBA-PR 等后续算法可以如何放回这套 taxonomy 中理解？
+* 在真实系统中，通信、动态任务到达和计算成本是否需要额外的分类维度？
 
-- 为什么需要建立 MRTA taxonomy
-- 三个分类轴如何形成 8 类问题
-- 各类问题与经典优化问题之间的关系
-- Section 6 如何比较已有方法
-- Taxonomy 的适用范围和局限
-- 论文的主要贡献与未来研究方向
+这些问题将在后续论文阅读和 cross-paper comparison 中逐渐补充。
 
-## 下一步
+## Next Step
 
-- 进一步巩固 8 类 MRTA 问题之间的区别
-- 完善对 Section 6 比较框架的理解
-- 总结论文的核心假设、贡献与局限
-- 尝试脱离原文完整讲述这篇论文的研究逻辑
-- 在此基础上继续研读下一篇 MRTA 论文
-- 我会持续更新我的阅读笔记整体呈现我多轮研读论文的过程
+暂时不继续深入这篇论文中的具体算法细节。
+
+下一阶段将通过后续论文，把这篇论文建立的 MRTA taxonomy 与具体任务分配方法联系起来，并逐步形成跨论文理解。
