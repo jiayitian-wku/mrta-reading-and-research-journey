@@ -32,8 +32,10 @@
 ### 3. Partial Replanning for Decentralized Dynamic Task Allocation
 
 重点理解 decentralized dynamic task allocation，以及 CBBA / CBBA-PR 中的局部重规划机制。
+本文主要分析的是在去中心化的动态任务分配中，如何通过局部重规划快速应对新任务的出现。
 
-**状态：待系统研读。**
+
+**状态：正在完成多轮研读与总结。**
 
 ## 仓库结构
 
