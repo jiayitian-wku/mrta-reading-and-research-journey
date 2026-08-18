@@ -1,12 +1,12 @@
 # Research Log — Aug 17–18, 2026
 
-**Paper 002:** *Partial Replanning for Decentralized Dynamic Task Allocation*
+**Paper 003:** *Partial Replanning for Decentralized Dynamic Task Allocation*
 
 ## 2026-08-17 — Problem Formulation
 
 ### 今日进度
 
-继续研读 Paper 002，完成了 **Section 3.1 — Problem Formulation** 的主要内容。
+继续研读 Paper 003，完成了 **Section 3.1 — Problem Formulation** 的主要内容。
 
 这一部分开始正式进入论文的问题建模阶段。相比前面的 Introduction，这里不再只是介绍研究背景，而是开始用更正式的方式描述机器人、任务以及任务分配之间的关系。
 
